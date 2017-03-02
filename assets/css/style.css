@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	background: #E1E0E7;
+  font-family: "helvetica";
+  padding: 60px; 
+}
+header {
+	background: #EADDDB;
+}
+main {
+	background: #F4F4F4;
+  float: left;
+  width: 100%;
+  padding: 40px;
+}
+footer {
+  clear: both;
+  text-align: center;
+	color: ##FFEBE7;
+	padding: 20px 0;
+}
+.card {
+  background: #fff;
+  box-shadow: 0 2px 8px #fff;
+  padding: 20px;
+}
+.container {
+	margin: 0 auto; 
+}
+.container: after { 
+  content: "";
+  display: table;
+  clear: both;
+}
+.mypix {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border: 1px solid #cecece;
+  padding: 5px;
+  box-shadow: 0 2px 8px #777;
+}
+.content{
+  width: 75%;
+  float: left;
+}
+
+.sidebar {
+  width: 25%;
+  float: right;
+}
+.sidebar h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.sidebar ul {
+  padding-left: 0;
+
+}
+.sidebar ul li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.sidebar ul li{
+  display: inline-block;
+}
+a.twitter {
+  background-color: #1da1f2;
+}
+a.linkedin {
+  background-color: #0077b5;
+}
+a.stackoverflow {
+  background-color: #f48024;
+}
+nav {
+  float: right;
+}
+nav ul {
+  padding-left: 0;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.brand {
+  float: left;
+  padding: 0;
+}
+.brand a {
+  font-size: 50px;
+  font-style: "helvetica";
+  font-weight: bold;
+  color: #F92A82;
+}
+
+a:hover { 
+  background-color: #AEB8C3; 
+}
+
+a:focus { 
+  background-color: #4E0E2E; 
+}
+
+a:active { 
+  background-color: #E1E7EB; 
+}
+.portfolio-image {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.contact-form {
+  float: left;
+  width: 100%;
+}
+.contact-form ul {
+  padding-left: 0;
+}
+.contact-form li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.contact-form label {
+  display: block;
+}
+.contact-form input {
+  display: block;
+}
+@media(max-width: 980px){
+  .content {
+    width: 60%;
+  }
+  .sidebar {
+    width: 30%;
+  }
+}
+@media(max-width: 768px){
+  .content {
+    width: 100%;
+  }
+  .sidebar {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+@media(max-width: 640px){
+  .mypix {
+    max-width: initial;
+  }
+  nav {
+    width: 100%;
+    text-align: center;
+  }
+  .brand {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
